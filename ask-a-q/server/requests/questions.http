@@ -1,0 +1,15 @@
+GET http://localhost:8080/api/stackoverflow/question
+
+###
+
+POST http://localhost:8080/api/stackoverflow/question
+Content-Type: application/json
+Accepted: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzdGFja292ZXJmbG93Iiwic3ViIjoiam9obkBzbWl0aC5jb20iLCJhdXRob3JpdGllcyI6IkFETUlOIiwiZXhwIjoxNjkxODQ2Njg2fQ.V-mcXA8vhdoHGS1Xxzxipv1v4mL42xMQ7g0tyxn1Fz8
+
+{
+    "questionTitle": "Spotted UFO!",
+    "questionInput": "Blah blah blah blah",
+    "userId": 1,
+    "username": "john@smith.com"
+}

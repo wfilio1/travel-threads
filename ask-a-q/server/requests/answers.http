@@ -1,0 +1,19 @@
+GET http://localhost:8080/api/stackoverflow/answer
+
+###
+GET http://localhost:8080/api/stackoverflow/answer/2
+###
+
+POST http://localhost:8080/api/stackoverflow/answer
+Content-Type: application/json
+Accepted: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzdGFja292ZXJmbG93Iiwic3ViIjoiam9obkBzbWl0aC5jb20iLCJhdXRob3JpdGllcyI6IkFETUlOIiwiZXhwIjoxNjkxOTUyNDU2fQ.6eSdrnTrhArQ9qyh97O59qNI43SDOep27iPq0z6cTL0
+
+{
+    "answerInput" : "testing",
+    "userId" : 1,
+    "questionId" : 2,
+    "username" : "john@smith.com"
+}
+
+###

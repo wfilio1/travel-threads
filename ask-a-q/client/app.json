@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "askAQ",
+    "slug": "askAQ",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "823796018324-hc6vig7b3862r9hgvdl1hahqcono3l3d.apps.googleusercontent.com"
+        }
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
